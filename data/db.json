@@ -1,0 +1,100 @@
+{
+  "blogs": [
+    {
+      "id": "102",
+      "img": "https://images.pexels.com/photos/15615835/pexels-photo-15615835/free-photo-of-lake-of-lights.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "alt": "mountain",
+      "date": 23,
+      "month": "June",
+      "title": "Python Programming",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deleniti minus perferendis, vel tenetur exercitationem voluptatum beatae itaque ad consectetur id consequatur in nihil recusandae? ",
+      "contentType": "Tech",
+      "contentColor": "lime",
+      "author": "Venom"
+    },
+    {
+      "id": "103",
+      "img": "Images/nature1.jpg",
+      "alt": "nature1",
+      "date": 24,
+      "month": "July",
+      "title": "Electricity",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deleniti minus perferendis, vel tenetur exercitationem voluptatum beatae itaque ad consectetur id consequatur in nihil recusandae? ",
+      "contentType": "Physics",
+      "contentColor": "tomato",
+      "author": "Luigi"
+    },
+    {
+      "id": "104",
+      "img": "Images/nature2.jpg",
+      "alt": "nature2",
+      "date": 4,
+      "month": "August",
+      "title": "One with nature",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deleniti minus perferendis, vel tenetur exercitationem voluptatum beatae itaque ad consectetur id consequatur in nihil recusandae? ",
+      "contentType": "Mindfulness",
+      "contentColor": "lightblue",
+      "author": "Mahesh"
+    },
+    {
+      "id": "105",
+      "img": "Images/nature4.jpg",
+      "alt": "nature4",
+      "date": 11,
+      "month": "September",
+      "title": "Nature",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deleniti minus perferendis, vel tenetur exercitationem voluptatum beatae itaque ad consectetur id consequatur in nihil recusandae? ",
+      "contentType": "Mindfulness",
+      "contentColor": "lightblue",
+      "author": "Sofia"
+    },
+    {
+      "id": "106",
+      "img": "Images/nature3.jpg",
+      "alt": "nature3",
+      "date": 19,
+      "month": "August",
+      "title": "Meditation",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deleniti minus perferendis, vel tenetur exercitationem voluptatum beatae itaque ad consectetur id consequatur in nihil recusandae? ",
+      "contentType": "Mindfulness",
+      "contentColor": "lightblue",
+      "author": "Alex"
+    },
+    {
+      "id": "107",
+      "img": "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "alt": "learning",
+      "date": 21,
+      "month": "August",
+      "title": "How to read faster",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deleniti minus perferendis, vel tenetur exercitationem voluptatum beatae itaque ad consectetur id consequatur in nihil recusandae? ",
+      "contentType": "Learning",
+      "contentColor": "orange",
+      "author": "Andrew"
+    },
+    {
+      "id": "108",
+      "img": "https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "alt": "learning",
+      "date": 12,
+      "month": "November",
+      "title": "How to study for exam",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deleniti minus perferendis, vel tenetur exercitationem voluptatum beatae itaque ad consectetur id consequatur in nihil recusandae? ",
+      "contentType": "Learning",
+      "contentColor": "orange",
+      "author": "Andrew"
+    },
+    {
+      "id": "109",
+      "img": "https://images.pexels.com/photos/949126/pexels-photo-949126.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "alt": "gym",
+      "date": 22,
+      "month": "August",
+      "title": "Lean bulking",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deleniti minus perferendis, vel tenetur exercitationem voluptatum beatae itaque ad consectetur id consequatur in nihil recusandae? ",
+      "contentType": "Fitness",
+      "contentColor": "#222",
+      "author": "Mark"
+    }
+  ]
+}
