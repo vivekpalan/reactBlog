@@ -123,6 +123,8 @@ li .user-details{
     margin-top: 5px;
 }
 .blog-body{
+    max-height: 110px;
+    overflow: hidden;
     font-size: 14px;
     padding-bottom: 15px;
     border-bottom: 1.5px solid grey;
@@ -222,7 +224,7 @@ li .content-type{
     border-radius: 5px;
     outline: none;
 }
-.form-container input[type="submit"]{
+.form-container .submit-btn{
     border: none;
     outline: none;
     border-radius: 5px;
