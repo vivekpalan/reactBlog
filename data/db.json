@@ -104,7 +104,17 @@
       "date": "1",
       "month": "Sept",
       "category": "Learning",
-      "image": "https://images.pexels.com/photos/1031588/pexels-photo-1031588.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "img": "https://images.pexels.com/photos/1031588/pexels-photo-1031588.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "ace2",
+      "text": "How to code for beginners",
+      "content": "To learn coding you need to have some basic concepts cleared. Concepts such as Variables, datatypes, functions, conditions, loops etc. After that you can move on to learning some code concepts even choose your favorite programming language",
+      "author": "Venom",
+      "date": "12",
+      "month": "Oct",
+      "category": "",
+      "img": "https://images.pexels.com/photos/270366/pexels-photo-270366.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
   ]
 }

@@ -9,11 +9,12 @@ const CreateBlogs = () => {
     const [date,setDate] = useState('');
     const [month,setMonth] = useState('');
     const [category,setCategory] = useState('');
-    const [image,setImage] = useState('');
+    const [img,setImg] = useState('');
 
     function handleSubmit(e){
         e.preventDefault();
-        const data = {text,content,author,date,month,category,image}
+        const data = {text,content,author,date,month,category,img}
+        console.log(data)
         fetch('http://localhost:8005/blogs',{
             method: "POST",
             content: "/application.json",
@@ -29,7 +30,7 @@ const CreateBlogs = () => {
                     <h3 style={{textAlign:"center"}}>Enter your blog</h3>
                     <input type="text" name="text" id="text" required value={text} placeholder="Enter Blog title" onChange={e => setText(e.target.value)}/>
                     <input type="text" name="author" id="author" required placeholder="Enter Blog author" value={author}  onChange={e => setAuthor(e.target.value)}/>
-                    <input type="text" name="" id="" placeholder="Enter date" required value={date}  onChange={e => setDate(e.target.value)}/>
+                    <input type="date" name="" id="" placeholder="Enter date" required value={date}  onChange={e => setDate(e.target.value)}/>
 
                     <select  style={{marginTop:"10px",padding:"10px 20px"}} name="month" required id="month" value={month} onChange={e => setMonth(e.target.value)}>
 
@@ -56,10 +57,11 @@ const CreateBlogs = () => {
                         <option value="Learning">Learning</option>
                         <option value="Fitness">Fitness</option>
                     </select>
-                    <input type="url" name="Upload Image" id="image" required value={image} placeholder="Enter Image URL"  onChange={e => setImage(e.target.value)}/>
+                    <input type="url" name="upload_image" id="image" required value={img} placeholder="Enter Image URL"  onChange={e => setImg(e.target.value)}/>
 
                     <textarea name="blog-content" id="blog-content" required placeholder="Enter the blog content" value={content}  onChange={e => setContent(e.target.value)}></textarea>
                     <input className="submit-btn" type="submit" value="Add" onClick={(e) => handleSubmit(e)} />
+
                 </form>
             </div>
 

@@ -6,12 +6,12 @@ import "./style.css";
 const Blogslist = ({blogs , title}) => {
     return(
         <>
-            <div className="blogs-list flex-column">
+            <div className="blogs-list flex-column" >
                 <h2>{title}</h2>
-                <div className="blog-container flex-column">
+                <div className="blog-container flex-column" >
                     {blogs.map(b => 
                     
-                    <li key={b.id}>
+                    <li key={b.id} className="blogs-item"> 
                             <div className="date">
                                 <h4>{b.month}</h4>
                                 <h2>{b.date}</h2>
