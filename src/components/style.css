@@ -157,7 +157,6 @@ li .content-type{
 }
 
 .blog-view{
-    width: 800px;
     margin: 10px auto;
     display: flex;
     flex-direction: column;
@@ -280,7 +279,7 @@ li .content-type{
 } 
 
 
-@media screen and (min-width:600px){
+@media screen and (min-width:768px){
     .hero-section{
         color: #fff;
         width: 100%;
@@ -307,12 +306,15 @@ li .content-type{
         padding: 20px;
         /* border-radius: 10px; */
         background-color: #fff;
-        display: grid;
+        grid-template-rows: 1fr;
         grid-template-columns: 0.5fr 1.25fr 1.5fr;
         gap: 30px;
         align-items: center;
         border: 1px solid grey;
         transition: 0.2s all ease;
         margin-top: 10px;
+    }
+    .blog-view{
+        width: 800px;
     }
 }

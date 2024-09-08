@@ -19,7 +19,7 @@ const NewBlogs = ()=>{
     return(
         <>
             {error && <div>{error}</div>}
-            {isPending && <div>Loading....</div>}
+            {isPending && <div className='flex'>Loading....</div>}
             {data && <div>
                 <article className="blog-view">
                 <div className="img-container">
